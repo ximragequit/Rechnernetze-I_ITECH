@@ -2,29 +2,36 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background-color: #f4f4f4;
 }
 
 header {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 1em;
+    padding: 1em 0;
 }
 
-main {
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 0.5em;
+}
+
+section {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
+    background-color: #fff;
+}
+
+article {
+    margin-bottom: 20px;
 }
 
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 1em;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding: 1em 0;
 }
-
