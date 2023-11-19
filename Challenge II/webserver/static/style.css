@@ -16,6 +16,11 @@ nav {
     background-color: #444;
     color: #fff;
     padding: 0.5em;
+    text-align: center;
+}
+
+a {
+    color: #fff;
 }
 
 section {
@@ -34,4 +39,14 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1em 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
 }
